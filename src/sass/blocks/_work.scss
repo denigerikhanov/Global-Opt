@@ -1,0 +1,33 @@
+.work {
+    padding: 50px 0 57px 0;
+    &__wrapper {
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+    &__image {
+        min-width: 360px;
+        height: 210px;
+        object-fit: cover;
+    }
+    &__title {
+        margin-top: 15px;
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: justify;
+        text-align-last: center;
+    }
+}

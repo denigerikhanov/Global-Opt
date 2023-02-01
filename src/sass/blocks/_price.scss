@@ -1,0 +1,52 @@
+.price {
+    padding: 53px 0 65px 0;
+    &__wrapper {
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(4, 265px);
+        column-gap: 30px;
+    }
+    &__item {
+        border: 1px solid RGBA(233, 233, 233, 1);
+        text-align: center;
+    }
+    &__content {
+        padding: 16px;
+    }
+    &__name {
+        padding: 22px 0;
+        background-color: #25333C;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #2E2E2E;
+        text-transform: uppercase;
+    }
+    &__cost {
+        font-size: 24px;
+        font-weight: 400;
+        color: $main-color;
+    }
+    &__descr {
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #2E2E2E;
+    }
+    &__button {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 16px 45px;
+        font-size: 13px;
+        text-transform: uppercase;
+        &:hover {
+            border: 1px solid $main-color;
+        }
+    }
+}
