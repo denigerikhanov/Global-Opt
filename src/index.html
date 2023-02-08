@@ -213,14 +213,18 @@
         <div class="container">
             <div class="consultation__wrapper">
                 <div class="consultation__title">Заказать бесплатную консультацию</div>
-                <div class="consultation__icon">
-                    <img src="icons/consult.png" alt="consultation">
+                <div class="consultation__icon-div">
+                    <div class="consultation__icon">
+                        <img src="icons/consult.png" alt="consultation">
+                    </div>
                 </div>
                 <form action="#" class="consultation__form">
                     <input class="consultation__input" placeholder="Ваше имя..." required type="text" name="name" id="name" tabindex="1">
                     <input class="consultation__input" placeholder="Ваш номер телефона..." required type="tel" name="phone" id="phone" tabindex="2">
                     <input class="consultation__input" placeholder="Ваш email.." required type="email" name="email" id="email" tabindex="3">
-                    <input class="btn consultation__button" type="button" value="Отправить заявку">
+                    <div class="consultation__button-div">
+                        <input class="btn consultation__button" type="button" value="Отправить заявку">
+                    </div>
                 </form>
             </div>
         </div>
