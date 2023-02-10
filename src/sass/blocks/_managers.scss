@@ -1,0 +1,25 @@
+.managers {
+    padding: 52px 0 65px 0;
+    background: url('../img/managers_bg.jpg');
+    color: #fff;
+    text-align: center;
+    &__icon {
+        display: inline-block;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        img {
+            padding: 26px;
+        }
+    }
+    &__title {
+        margin-top: 19px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin: 18px auto 0 auto;
+        max-width: 924px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
